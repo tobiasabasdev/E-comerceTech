@@ -1,9 +1,10 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    background-color: #dadada;
-    color: var(--color-text-main);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, #0D1117 0%, #1B1F27 100%);
+    color: var(--color-text-main);
+    overflow-x: hidden; 
 }
 
 
@@ -258,6 +259,7 @@ h2{
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  color: var(--color-text-main);
 }
 
 .about-img{
@@ -274,6 +276,7 @@ h2{
   align-items: center;           
   gap: 20px;                     
   padding: 40px;
+  color: var(--color-text-main);
 }
 
 .mision-texto h2 {
@@ -296,6 +299,7 @@ h2{
   align-items: center;
   gap: 20px;
   padding: 40px;
+  color: var(--color-text-main);
 }
 .vision-texto p{
 line-height: 1.5;
@@ -314,6 +318,7 @@ line-height: 1.5;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: var(--color-text-main);
 }
 
 .team-img{
@@ -392,6 +397,7 @@ line-height: 1.5;
 
 
 .masobrenosotros h2{
+  text-align: center;
   color: var();
 }
 
@@ -433,9 +439,70 @@ line-height: 1.5;
   border-top: 1px solid #616161;
 }
 
-.main-hero{
-  text-align: center;
+.main-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0D1117 0%, #0A84FF 80%);
+  color: var(--color-text-main);
 }
+
+.bienvenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.bienvenido-content {
+  flex: 1;
+  min-width: 300px;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.bienvenido-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.bienvenido-content h1 span {
+  color: var(--color-accent);
+}
+
+.bienvenido-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.bienvenido-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+.bienvenido-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .numero{
   font-weight: 700;
@@ -563,10 +630,6 @@ text-align: center;
 }
 
 
-
-@keyframes titilo {
-  
-}
 
 
 @media (max-width: 700px) {
