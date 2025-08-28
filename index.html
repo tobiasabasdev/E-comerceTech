@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-Commerce E-CommerceTech</title>
+</head>
+<body>
+    <nav class="nav">
+        <h1 class="logo">E-CommerceTech</h1>
+        <ul class="menu">
+            <li class="hideOnMobile"> <a href="#">Inicio</a></li>
+            <li class="hideOnMobile"> <a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li class="hideOnMobile"> <a href="contacto.html">Contacto</a></li>
+            <li class="hideOnMobile"> <a href="productos.html">Productos</a></li>
+            <li onclick=showSidebar()> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f5f5f5" viewBox="0 0 24 24">
+      <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+    </svg></li>
+        </ul>
+    </nav>
+    
+        <ul class="sidebar">
+            <li> <a href="#">Inicio</a></li>
+            <li> <a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+            <li> <a href="productos.html">Productos</a></li>
+            <li onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f5f5f5" viewBox="0 0 24 24">
+      <path d="M18.3 5.71L12 12l6.3 6.29-1.42 1.42L10.59 13.41 4.29 19.71 2.87 18.29 9.17 12 2.87 5.71 4.29 4.29 10.59 10.59 16.88 4.29z"/>
+    </svg></li>
+        </ul>
+
+    
+      <header class="headerin">
+  <img src="img/about.webp" alt="Una descripción de la imagen">
+  <div class="overlay"></div> <div class="header-contenido">
+    <h2>Los mejores productos</h2>
+    <p>Encuentra los mejores productos a los mejores precios</p>
+    <button aria-label="Comprar">Comprar</button>
+  </div>
+</header>
+        <!-- PRODUCTOS -->
+
+       <main class="main-hero">
+        <section class="Bienvenido">
+            <h1>Bienvenido a E-comerceTech</h1>
+            <p>Descubre lo último en tecnología y encuentra todo lo que necesitas.</p>
+        </section>
+
+          <hr class="separador"></hr>
+        <section class="masobrenosotros">
+            <h2>Mas sobre nosotros</h2>
+            <p class="masobrenosotrosp"> <strong>E-comerceTech </strong> llevamos la experiencia premium a otro nivel,
+              conoce nuestros productos y compra
+            </p>
+              <div class="containernosotros">
+              <div class="item-nosotros">
+              <img src="img/marcador-de-posicion.png" alt="Icono de ubicación" />
+              <p class="numero">18</p>
+              <p class="etiqueta">Sucursales</p>
+            </div>
+
+              <div class="item-nosotros">
+              <img src="img/user.png" alt="Icono de personas" />
+              <p class="numero">15,323</p>
+              <p class="etiqueta">Entrenamientos diarios</p>
+            </div>
+
+              <div class="item-nosotros">
+              <img src="img/peso.png" alt="Icono de entrenador" />
+              <p class="numero">124</p>
+              <p class="etiqueta">Entrenadores</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="separador">
+        <section>
+            <h2>Productos Destacados</h2>
+            </section>
+
+<section>
+  <h3 class="text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
+    Nuestros Partners
+  </h3>
+  <div class="scroll">
+    <div class="scrolling-content">
+      <img src="img/google.png" alt="Partner Google">
+      <img src="img/logo-spotify.svg" alt="Partner Spotify">
+      <img src="img/Samsung_Logo.svg.png" alt="Partner Samsung">
+      <img src="img/Amazon_logo.svg.png" alt="Partner Amazon">
+      <img src="img/Escudo_del_Club_Atlético_San_Lorenzo_de_Almagro.svg.png" alt="Partner San Lorenzo">
+      <img src="img/iPhone-Symbol.png" alt="Partner iPhone">
+      <img src="img/Coca-Cola_logo.svg.png" alt="Partner Coca-Cola">
+      <img src="img/tesla-logo-png-transparent-background-11661594429mycuxlun4t.png" alt="Partner Tesla">
+      <img src="img/vecteezy_mclaren-brand-logo-car-symbol-name-orange-design-british_20500343.jpg" alt="Partner McLaren">
+      <img src="img/Lacoste_logo.svg.png" alt="Partner Lacoste">
+    </div>
+    <div class="scrolling-content">
+      <img src="img/google.png" alt="Partner Google">
+      <img src="img/logo-spotify.svg" alt="Partner Spotify">
+      <img src="img/Samsung_Logo.svg.png" alt="Partner Samsung">
+      <img src="img/Amazon_logo.svg.png" alt="Partner Amazon">
+      <img src="img/Escudo_del_Club_Atlético_San_Lorenzo_de_Almagro.svg.png" alt="Partner San Lorenzo">
+      <img src="img/iPhone-Symbol.png" alt="Partner iPhone">
+      <img src="img/Coca-Cola_logo.svg.png" alt="Partner Coca-Cola">
+      <img src="img/tesla-logo-png-transparent-background-11661594429mycuxlun4t.png" alt="Partner Tesla">
+      <img src="img/vecteezy_mclaren-brand-logo-car-symbol-name-orange-design-british_20500343.jpg" alt="Partner McLaren">
+      <img src="img/Lacoste_logo.svg.png" alt="Partner Lacoste">
+    </div>
+  </div>
+</section>
+    </main>
+
+            <!-- FOOTER -->
+         <footer class="footer">
+  <p>&copy; 2025 E-CommerceTech</p>
+  <section class="footermain">
+    <div class="section1">
+      <h3>Productos</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Laptops</a></li>
+        <li><a href="#">Monitores</a></li>
+        <li><a href="#">Accesorios</a></li>
+      </ul>
+    </div>
+    <div class="section2">
+      <h3>Soporte</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Garantía</a></li>
+        <li><a href="#">Devoluciones</a></li>
+      </ul>
+    </div>
+    <div class="section3">
+      <h3>Redes Sociales</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+        <script src="script.js"></script>
+</body>
+</html>

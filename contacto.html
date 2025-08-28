@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SobreNosotros|E-CommerceTech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <h1 class="logo">E-CommerceTech</h1>
+        <ul class="menu">
+            <li class="hideOnMobile"> <a href="index.html">Inicio</a></li>
+            <li class="hideOnMobile"> <a href="#">Sobre Nosotros</a></li>
+            <li class="hideOnMobile"> <a href="contacto.html">Contacto</a></li>
+            <li class="hideOnMobile"> <a href="productos.html">Productos</a></li>
+            <li onclick=showSidebar()> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f5f5f5" viewBox="0 0 24 24">
+      <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+    </svg></li>
+        </ul>
+    </nav>
+    
+        <ul class="sidebar">
+            <li> <a href="index.html">Inicio</a></li>
+            <li> <a href="#">Sobre Nosotros</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+            <li> <a href="productos.html">Productos</a></li>
+            <li onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f5f5f5" viewBox="0 0 24 24">
+      <path d="M18.3 5.71L12 12l6.3 6.29-1.42 1.42L10.59 13.41 4.29 19.71 2.87 18.29 9.17 12 2.87 5.71 4.29 4.29 10.59 10.59 16.88 4.29z"/>
+    </svg></li>
+        </ul>
+
+        <header>
+            <img src="img/banner.jpg" alt="">
+        </header>
+
+         <main class="main-contact">
+ <div class="container-form">
+        <div class="info-form">
+            <h2>Contáctanos</h2>
+            <p>Si tienes alguna duda, sugerencia o quieres realizar un pedido personalizado, completa el siguiente formulario: </p>
+            <a href="#"> Numero: +54 9 11 9453-4832 </a>
+            <a href="#"> Email: Info@E-CommerceTech.com</a>
+            <a href="#"> Localidad: AntiFlores Uruguay</a>
+        </div>
+        <form action="#" autocomplete="on">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+            <input type="emal" name="email" placeholder="Tu Email" class="campo">
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+    </main>
+
+
+
+             <footer class="footer">
+  <p>&copy; 2025 E-CommerceTech</p>
+  <section class="footermain">
+    <div class="section1">
+      <h3>Productos</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Laptops</a></li>
+        <li><a href="#">Monitores</a></li>
+        <li><a href="#">Accesorios</a></li>
+      </ul>
+    </div>
+    <div class="section2">
+      <h3>Soporte</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Garantía</a></li>
+        <li><a href="#">Devoluciones</a></li>
+      </ul>
+    </div>
+    <div class="section3">
+      <h3>Redes Sociales</h3>
+      <hr>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
